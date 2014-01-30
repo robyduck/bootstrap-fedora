@@ -65,24 +65,24 @@ Learn more about using Jekyll by reading its [documentation](http://jekyllrb.com
 ### Run a local instance ( comment by Robert Mayr)
 
 1. Clone the repo
-2. Install bower, first you need npm
-	yum install npm
-	npm install -g bower
+2. Install bower, first you need npm: 
+	`yum install npm` and after it 
+	`npm install -g bower`
 3. To compile the LESS files you need RECESS, let's install it:
-	npm install -g recess
+	`npm install -g recess`
 4. Go to your webserver main directory and install bootstrap to use a new bootstrap version
-	bower install bootstrap
+	`bower install bootstrap`
 
 	or just copy the cloned repo (or configure the git repo itself there) into it
 5. To run a local test instance you need jekyll, let's set it up:
-	yum install rubygems ruby-devel
-	gem install jekyll
+	`yum install rubygems ruby-devel`
+	`gem install jekyll`
 
-Now you should be able to run the test instance, the configuration file to change the values is _config.yml, when compiling it will create the pages under the dist/ directory. You can visit the pages from your local server or just run the created pages under dist/ in your browser.
+Now you should be able to run the test instance, the configuration file to change the values is `_config.yml`, when compiling it will create the pages under the dist/ directory. You can visit the pages from your local server or just run the created pages under dist/ in your browser.
 To run bootstrap locally you will use:
-	jekyll serve
+	`jekyll serve`
 
-which will launch the instance under http://your_host:9001
+which will launch the instance under `http://your_host:9001`
 
 ### Documentation for previous releases
 
